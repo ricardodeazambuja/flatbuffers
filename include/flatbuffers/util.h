@@ -192,7 +192,7 @@ template<> inline std::string NumToString<double>(double t) {
   return FloatToString(t, 12);
 }
 template<> inline std::string NumToString<float>(float t) {
-  return FloatToString(t, 6);
+  return FloatToString(t, 12);
 }
 
 // Convert an integer value to a hexadecimal string.
